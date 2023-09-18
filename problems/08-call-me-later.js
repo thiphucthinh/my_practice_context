@@ -10,6 +10,11 @@ class CallCenter {
 	callMeLater(delay) {
 		setTimeout(() => this.sayHello(), delay);
 	}
+
+	// Using bind()
+	//   callMeLater(delay) {
+	// 	setTimeout(this.sayHello.bind(this), delay);
+	// }
 }
 
 
